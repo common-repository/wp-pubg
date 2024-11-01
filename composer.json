@@ -1,0 +1,20 @@
+{
+    "name": "srxwebdesign/wp-pubg",
+    "description": "A pubg stat plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "srx webdesign",
+            "email": "srxwebdesign@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WP_PUBG\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
